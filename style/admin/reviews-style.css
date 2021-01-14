@@ -1,0 +1,211 @@
+.swiper-container {
+  width: 100%;
+  min-height: 60vh;
+}
+
+.swiper-wrapper {
+  min-height: inherit;
+}
+
+.swiper-slide {
+  background: rgba(117, 116, 116, 0.1);
+  border-radius: 20px;
+  border: 1px solid rgba(58, 58, 58, 0.1);
+  text-align: center;
+  min-height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  color: rgb(0, 128, 0);
+  z-index: 1;
+}
+
+.review-container {
+  max-width: 75%;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sender p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.7vw;
+}
+
+.sender {
+  padding-bottom: 30px;
+}
+
+.content {
+  font-size: 2.5vw;
+}
+
+.content p {
+  padding-left: 10px;
+}
+
+.options {
+  padding-top: 30px;
+}
+
+.sender p:nth-child(1) {
+  border-top: 1px solid black;
+  border-radius: 15px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+}
+
+.sender p:nth-child(2) {
+  border-bottom: 1px solid black;
+  border-radius: 15px;
+  padding-bottom: 3px;
+  padding-top: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .swiper-container {
+    min-height: 70vh;
+    margin-top: 2em;
+  }
+
+  .review-container {
+    max-width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sender p {
+    width: 80%;
+    margin: auto;
+    font-size: 2.5vw;
+  }
+
+  .sender {
+    padding-bottom: 30px;
+  }
+
+  .content {
+    font-size: 4vw;
+  }
+
+  .content p {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .options {
+    padding-top: 30px;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-container {
+    min-height: 60vh;
+  }
+
+  .review-container {
+    max-width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sender p {
+    width: 80%;
+    margin: auto;
+    font-size: 3vw;
+  }
+
+  .sender {
+    padding-bottom: 30px;
+  }
+
+  .content {
+    font-size: 4vw;
+  }
+
+  .content p {
+    padding-left: 10px;
+    text-align: left;
+  }
+
+  .options {
+    padding-top: 30px;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
+
+@media (max-height: 767px) and (orientation: landscape) {
+  .swiper-container {
+    min-height: 20vh;
+  }
+
+  .review-container {
+    max-width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .sender p {
+    width: 80%;
+    margin: auto;
+    font-size: 4vh;
+  }
+
+  .sender {
+    padding-bottom: 2vh;
+  }
+
+  .content {
+    font-size: 6vh;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  .options {
+    padding-top: 2vh;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* tablet */
+}
+
+@media (max-width: 767px) {
+  /* mobilni */
+}
+
+@media (max-height: 767px) and (orientation: landscape) {
+  /* mobilni okrenut */
+}

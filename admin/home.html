@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/admin/header-admin.css" />
+    <link rel="stylesheet" href="../style/admin/footer-admin.css" />
+    <link rel="stylesheet" href="../style/admin/home.css" />
+    <link rel="stylesheet" href="../style/admin/basic-style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- ovde treba da ide logo -->
+        <a href="./home.html">
+          <div id="home-nav" class="icon-nav"></div>
+          <p>Home</p>
+        </a>
+        <a href="./statistics.html">
+          <div id="stats-nav" class="icon-nav"></div>
+          <p>Statistics</p>
+        </a>
+
+        <a href="./reviews.html">
+          <div id="reviews-nav" class="icon-nav"></div>
+          <p>Reviews</p>
+        </a>
+        <a href="./web-shop.html">
+          <div id="web-shop-nav" class="icon-nav"></div>
+          <p>Web-shop</p>
+        </a>
+        <a href="./setings.html">
+          <div id="settings-nav" class="icon-nav"></div>
+          <p>Setings</p>
+        </a>
+        <a href="./logout.html">
+          <div id="logout-nav" class="icon-nav"></div>
+          <p>Logout</p>
+        </a>
+      </nav>
+      <a href="javascript:void(0)" id="close-btn" onclick="openNav()"></a>
+    </header>
+    <div class="cover"></div>
+    <div class="container">
+      <h1>Home</h1>
+      <div class="main-container">
+        <div class="intro">
+          <p class="main-intro"></p>
+          <h2>Welcome to the admin page.</h2>
+          <p>
+            Here, you can see and manage reviews,keep track of statistics about
+            the website, add, remove and update items in your webshop and
+            finally you can change specifics of your website in Settings
+            section.
+          </p>
+          <p class="hint">
+            You can use nav bar navigate in the top left corner, or you can
+            choose options that are bellow.
+          </p>
+          <p class="notice">
+            <em>Notice: </em>If you are loged in as demo user, all changes that
+            you made hear will not affect website.
+          </p>
+        </div>
+        <div class="home-nav">
+          <div class="stats disp">
+            <a href="./statistics.html"><div class="icon"></div></a>
+            <p>Keep track of statistic paramethers about website.</p>
+          </div>
+          <div class="rev disp">
+            <a href="./reviews.html"><div class="icon"></div></a>
+            <p>Check and manage customer reviews.</p>
+          </div>
+          <div class="shop disp">
+            <a href="./web-shop.html"><div class="icon"></div></a>
+            <p>Add, remove and update all your shop items.</p>
+          </div>
+          <div class="sett disp">
+            <a href="./setings.html"><div class="icon"></div></a>
+            <p>Change specifics of your website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Transport All is higly qualified transport company that works in city
+        Nis in Serbia.
+      </p>
+      <div class="contact-opt">
+        <div class="phone opt">
+          <div class="icon"></div>
+          <a href="tel:0641390206" target="_blank">Contact us: 0641390206 - Igor</a>
+        </div>
+        <div class="facebook opt">
+          <div class="icon"></div>
+        
+            <a href="www.facebook.com" target="_blank">Follow us on Facebook</a>
+          
+        </div>
+        <div class="instagram opt">
+          <div class="icon"></div>
+          
+            <a href="www.instagram.com" target="_blank">Follow us on Instagram</a>
+          
+        </div>
+        <div class="email opt">
+          <div class="icon"></div>
+          <a href="mailto: igor.stojanovic.nis@outlook.com" target="_blank">igor.stojanovic.nis@outlook.com</a>
+          </a>
+        </div>
+      </div>
+      <p>&copy; Copyright 2021 Kakarot Design</p>
+    </footer>
+  </body>
+
+  <script src="../javascript/admin/header-admin.js"></script>
+</html>

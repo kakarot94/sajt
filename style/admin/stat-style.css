@@ -1,0 +1,169 @@
+.swiper-container {
+  max-width: 80%;
+  margin: auto;
+  min-height: 60vh;
+}
+
+.stat-container {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2em;
+}
+
+.content {
+  display: grid;
+  column-gap: 3vw;
+  row-gap: 3vh;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.stat-name {
+  padding-bottom: 3px;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  border-radius: 15px;
+  width: 40%;
+  margin-bottom: 7vh;
+}
+
+.content-name {
+  text-transform: uppercase;
+  font-size: 1.2vw;
+}
+.total {
+  font-size: 4vw;
+  font-style: italic;
+}
+
+.content-stat {
+  margin-top: 3px;
+  background-color: rgba(117, 116, 116, 0.1);
+  display: grid;
+  align-items: center;
+  grid-template-rows: 1fr 2fr;
+  text-align: center;
+  border-radius: 2em 0 2em 0;
+  border: 1px solid rgba(58, 58, 58, 0.1);
+  height: 100%;
+  padding-top: 10px;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  color: rgb(0, 128, 0);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .stat-name {
+    font-size: 3vw;
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .content-name {
+    text-transform: uppercase;
+    font-size: 2vw;
+  }
+
+  .total {
+    font-size: 5vw;
+    font-style: italic;
+  }
+
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content-stat {
+    min-height: 15vw;
+    min-width: 100%;
+    margin: auto;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-container {
+    max-width: 100%;
+    height: 80%;
+  }
+
+  .stat-container {
+    width: 70%;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-name {
+    font-size: 4.5vw;
+    width: 80%;
+    margin-bottom: 0;
+  }
+
+  .content-stat {
+    min-height: 12vh;
+    min-width: 80%;
+    margin: auto;
+  }
+
+  .content-name {
+    text-transform: uppercase;
+    font-size: 2.5vw;
+  }
+
+  .total {
+    font-size: 10vw;
+    font-style: italic;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
+
+@media (max-height: 767px) and (orientation: landscape) {
+  .stat-name {
+    font-size: 2.5vw;
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .content-name {
+    text-transform: uppercase;
+    font-size: 1.8vw;
+  }
+
+  .total {
+    font-size: 4.5vw;
+    font-style: italic;
+  }
+
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content-stat {
+    min-height: 25vh;
+    min-width: 100%;
+    margin: auto;
+  }
+
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    color: rgb(0, 128, 0, 0.3);
+  }
+}
